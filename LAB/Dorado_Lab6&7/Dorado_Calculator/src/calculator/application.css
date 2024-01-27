@@ -1,0 +1,11 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: #96C3EB;
+}
+.label{
+	-fx-font-family: "Arial";
+	-fx-text-fill: "black";
+}
+.button{
+	-fx-font-family: "Arial";
+}

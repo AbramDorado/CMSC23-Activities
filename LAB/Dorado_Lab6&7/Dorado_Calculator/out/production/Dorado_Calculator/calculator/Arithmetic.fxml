@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="345.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.Controller">
+   <children>
+      <Label fx:id="label" layoutX="70.0" layoutY="47.0" text="ARITHMETIC">
+         <font>
+            <Font name="Century Gothic Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="input1" layoutX="44.0" layoutY="169.0" prefHeight="30.0" prefWidth="35.0" />
+      <TextField fx:id="input2" layoutX="210.0" layoutY="169.0" prefHeight="30.0" prefWidth="37.0" />
+      <Label fx:id="arithresult" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="243.0" prefHeight="32.0" prefWidth="150.0" text="Answer" />
+      <Button fx:id="switchtotrig" layoutX="163.0" layoutY="294.0" mnemonicParsing="false" onAction="#onTrigClick" text="Trigonometry">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="add" layoutX="106.0" layoutY="141.0" mnemonicParsing="false" onAction="#onAddClick" text="+">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="subtract" layoutX="105.0" layoutY="184.0" mnemonicParsing="false" onAction="#onSubtractClick" prefHeight="40.0" prefWidth="37.0" text="-">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="multiply" layoutX="149.0" layoutY="141.0" mnemonicParsing="false" onAction="#onMultiplyClick" text="X">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="divide" layoutX="149.0" layoutY="184.0" mnemonicParsing="false" onAction="#onDivideClick" prefHeight="40.0" prefWidth="35.0" text="/">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="54.0" layoutY="79.0" prefHeight="32.0" prefWidth="190.0" text="CALCULATOR">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

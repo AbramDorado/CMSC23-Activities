@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="add" layoutX="145.0" layoutY="86.0" mnemonicParsing="false" onAction="#onAddClick" text="+">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="multiply" layoutX="188.0" layoutY="86.0" mnemonicParsing="false" onAction="#onMultiplyClick" text="X">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="subtract" layoutX="145.0" layoutY="129.0" mnemonicParsing="false" onAction="#onSubtractClick" text="-">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="divide" layoutX="188.0" layoutY="129.0" mnemonicParsing="false" onAction="#onDivideClick" text="/">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="input1" layoutX="45.0" layoutY="110.0" prefHeight="30.0" prefWidth="75.0" />
+      <TextField fx:id="input2" layoutX="250.0" layoutY="110.0" prefHeight="30.0" prefWidth="75.0" />
+      <Label fx:id="arithresult" layoutX="45.0" layoutY="174.0" />
+      <Label fx:id="label" layoutX="45.0" layoutY="41.0" text="Arith Calculator">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="switchtotrig" layoutX="45.0" layoutY="200.0" mnemonicParsing="false" onAction="#onTrigClick" text="Trigonometry" >
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

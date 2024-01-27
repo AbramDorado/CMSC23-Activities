@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.Controller">
+   <children>
+      <Label fx:id="label11" layoutX="63.0" layoutY="73.0" text="CALCULATOR">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="label111" layoutX="43.0" layoutY="43.0" text="TRIGONOMETRIC">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="input3" layoutX="212.0" layoutY="164.0" prefHeight="30.0" prefWidth="56.0" />
+      <Label fx:id="trigresult" alignment="CENTER" layoutX="93.0" layoutY="236.0" prefHeight="31.0" prefWidth="113.0" text="Answer" />
+      <Button fx:id="switchtoarith" layoutX="187.0" layoutY="279.0" mnemonicParsing="false" onAction="#onArithClick" text="Arithmetic">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="sine" layoutX="37.0" layoutY="136.0" mnemonicParsing="false" onAction="#onSineClick" prefHeight="37.0" prefWidth="45.0" text="sin">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="cosine" layoutX="37.0" layoutY="179.0" mnemonicParsing="false" onAction="#onCosineClick" text="cos">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="tangent" layoutX="93.0" layoutY="136.0" mnemonicParsing="false" onAction="#onTangentClick" text="tan">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="cosecant" layoutX="149.0" layoutY="179.0" mnemonicParsing="false" onAction="#onCosecantClick" text="csc">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="secant" layoutX="149.0" layoutY="135.0" mnemonicParsing="false" onAction="#onSecantClick" prefHeight="37.0" prefWidth="44.0" text="sec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="cotangent" layoutX="93.0" layoutY="179.0" mnemonicParsing="false" onAction="#onCotangentClick" text="cot">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

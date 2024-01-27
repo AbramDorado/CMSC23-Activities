@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.Controller">
+   <children>
+      <Label fx:id="label1" layoutX="69.0" layoutY="56.0" text="Trigonometry Calculator">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="sine" layoutX="46.0" layoutY="141.0" mnemonicParsing="false" onAction="#trigoButtonAction" text="sine">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="cosine" layoutX="46.0" layoutY="184.0" mnemonicParsing="false" onAction="#trigoButtonAction" text="cosine">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="tangent" layoutX="97.0" layoutY="141.0" mnemonicParsing="false" onAction="#trigoButtonAction" text="tan">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="cotangent" layoutX="97.0" layoutY="184.0" mnemonicParsing="false" onAction="#trigoButtonAction" text="cot">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="secant" layoutX="149.0" layoutY="141.0" mnemonicParsing="false" onAction="#trigoButtonAction" text="sec">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="cosecant" layoutX="149.0" layoutY="184.0" mnemonicParsing="false" onAction="#trigoButtonAction" text="csc">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="input3" layoutX="207.0" layoutY="172.0" prefHeight="26.0" prefWidth="103.0" />
+      <Label fx:id="trigresult" layoutX="46.0" layoutY="281.0" />
+      <Button fx:id="switchtoarith" layoutX="274.0" layoutY="347.0" mnemonicParsing="false" onAction="#onArithClick" text="Arithmetic" />
+   </children>
+</AnchorPane>
